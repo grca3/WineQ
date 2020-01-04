@@ -1,0 +1,73 @@
+/* wineクイズtop */
+
+body {
+ margin: 0;
+ font-size: 16px;
+ color: #1f1801;
+ user-select: none;
+ font-family: 'HiraMinProN-W6', Arial, sans-serif;
+}
+
+img {
+  width: 100vw;
+  height: 100vw;
+}
+
+header { 
+ display: block;
+ width: 100vw;
+ height: 60px;
+ background: #620233;
+}
+
+header  p {
+ color: #fff;
+ text-align: center;
+ margin: 0; 
+} 
+
+/* error予備 */
+.container {
+ background:#620233; 
+ position: relative;
+}
+
+.container2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+}
+
+.container2 p {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: #f3ecec;
+}
+
+.box1 ,.box2  {
+  text-align: center;
+  line-height: 1.6;
+  background: #f4d66b;
+  width: 50%;
+  padding: 20px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 36px;
+  margin-top: 12px;
+}
+
+footer , footer p {
+ background: #620233;
+ text-align: center;
+ font-weight: normal;
+ color: #fff;
+ margin: 0;
+ width: 100vw;
+ height: 48px;
+} 
+
+
